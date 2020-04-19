@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+function validate()
+{
+var x=document.f1.s.value="succesfully Logined";
+document.write(x);
+}
+</script>
+<body>
+<form name="f1" method="post">
+UserName:<input type=text name="u" required><br><br>
+Password:<input type=password name="p" required><br><br>
+<input type="submit" name="s" value="Login" onclick="validate()">
+<p id="result"></p>
+</form>
+</body>
+</head>
+</html>
